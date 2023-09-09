@@ -1,0 +1,16 @@
+.options-box{
+   min-width: 170px;
+   
+}
+.wrapper-options{
+    max-height: min(100vh - 66px - 60px, 761px);
+    display: flex;
+    flex-direction: column;
+}
+.button{
+    display: flex;
+    width: 100%;
+}
+.menu-body{
+    overflow-y: auto;
+}

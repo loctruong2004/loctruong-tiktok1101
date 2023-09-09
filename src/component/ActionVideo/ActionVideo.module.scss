@@ -1,0 +1,25 @@
+
+.actions{
+    background-color: rgba(22, 24, 35, .06);
+    width: 48px;
+    height: 48px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    span{
+        font-size: 21px;
+     }
+}
+
+.box-Item{
+    width: 48px;
+    height: 78px;
+}
+.flex-count{
+    display: flex;
+    justify-content: center;
+}

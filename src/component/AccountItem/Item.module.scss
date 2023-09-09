@@ -1,0 +1,28 @@
+.wrapper{
+    display: flex;
+    justify-content: flex-start;
+    padding: 9px 16px;
+    cursor: pointer;
+    background: #fff;
+    align-items: center;
+    width: 100%;
+    h4{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        padding-right: 12px;
+        padding-left: 8px;
+
+    }
+    &:hover{
+        background: rgba(22, 24, 35, 0.03);
+    }
+}
+.search-close{
+    position: absolute;
+    right: 15px;
+}
+.button{
+    width: 100%;
+    display: flex;
+}

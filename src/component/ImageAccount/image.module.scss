@@ -1,0 +1,10 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.image-profile{
+    border-radius:50%;
+    object-fit: cover;
+    font-family: inherit;
+}

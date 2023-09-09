@@ -1,0 +1,13 @@
+.wrapper{
+    max-width: 186px;
+    height: 246px;
+    background-color: antiquewhite;
+    margin: 10px 5px;
+    display: block;
+    img {
+            border-radius: 5px;
+            width: 186px;
+            height: 246px;
+            object-fit: cover;
+       }
+}

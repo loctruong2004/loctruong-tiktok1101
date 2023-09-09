@@ -1,0 +1,18 @@
+.language{
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+    align-items: center;
+}
+.out-language{
+    height: 100%;
+    padding: 11px;
+    width: 45px;
+    background-color: #fff;
+}
+.text-language{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    display: flex;
+}

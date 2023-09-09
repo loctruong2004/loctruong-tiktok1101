@@ -1,0 +1,63 @@
+.layout{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://flc-event.vn/wp-content/uploads/2020/02/backgound-about-1.jpg");
+}
+.box-login{
+  width: 600px;
+  height: 350px;
+  background-color: #ccc;
+  border-radius: 3px;
+  input{
+  display: block;
+  height: 8px;
+  padding: 17px 20px;
+  width: 277px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  }
+  label{
+    display: block;
+    width: 111px;
+    height: 100%;
+    padding: 0 10px;
+    margin-left: 66px;
+  }
+}
+.email{
+    display: flex;
+    align-items: center;
+}
+.header-login{
+  display: flex;
+  justify-content: center;
+  padding: 10px
+}
+.button{
+  padding: 35px 0px;
+  display: flex;
+  justify-content: center;
+  button{
+    width: 116px;
+    height: 38px;
+    border-radius: 3px;
+    font-size: 18px;
+    line-height: 24px;
+    cursor: pointer;
+    --font-family: "TikTokDisplayFont","sans-serif";
+    font-weight: 600;
+    &:hover{
+      background-position: 100% 0;
+      moz-transition: all .4s ease-in-out;
+      -o-transition: all .4s ease-in-out;
+      -webkit-transition: all .4s ease-in-out;
+      transition: all .4s ease-in-out;
+      background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
+      box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+    }
+  }
+}

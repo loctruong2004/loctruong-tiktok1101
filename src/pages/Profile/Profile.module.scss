@@ -1,0 +1,56 @@
+.wrapper{
+    // background-color: #ccc;
+    display: block;
+    max-width: 1087px;
+    height: 100%;
+    padding-top: 30px;
+    margin-left: -140px;
+    font-family: "IBM Plex Sans", TikTokFont, Arial, Tahoma, PingFangSC, sans-serif;
+}
+.header{
+    display: flex;
+}
+.name{
+    padding: 0 70px 0 20px;
+    h3{
+        padding: 5px 0;
+    }
+}
+.header-information-follow{
+    display: flex;
+}
+.header-information-profile{
+    display: flex;
+}
+.wrapp-icon{
+    padding: 15px;
+    font-size: 26px;
+}
+.header-task{
+    display: flex;
+}
+.header-information-wrappfollow{
+    padding: 15px 10px 15px 0;
+   span{
+    font-weight: 700;
+   }
+
+}
+.header-content{
+    display: flex;
+    border-bottom:1px solid #d9d6d6 ;
+    span{
+    font-weight: 700;
+    font-size: 20px;
+    }
+    
+}
+.sibar-video{
+    padding: 5px 30px;
+    cursor: pointer;
+}
+.content{
+    display: flex;
+    width: 1176px;
+    flex-wrap: wrap
+}
